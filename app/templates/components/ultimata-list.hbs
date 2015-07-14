@@ -1,0 +1,10 @@
+<div class="list-group">
+  <!-- hardcoded -->
+  <!--<a class="list-group-item" href="">ultimatum 1</a>-->
+  <!-- actual -->
+  {{#each ultimata as |ultimatum| }}
+    {{#link-to 'ultimata.ultimatum' ultimatum class="list-group-item"}}
+      {{ultimatum.shortTitle}}
+    {{/link-to}}
+  {{/each}}
+</div>
