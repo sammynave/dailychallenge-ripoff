@@ -1,7 +1,6 @@
 # Dailychallenge-ripoff
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Let's learn ember by ripping off daily challenge!
 
 ## Prerequisites
 
